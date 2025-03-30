@@ -11,7 +11,7 @@ engine.setProperty('voice', voices[3].id)
 engine.setProperty('rate', 140) 
 engine.setProperty('volume', 1.0)
 
-genai.configure(api_key="AIzaSyD6YFEsHcYCX_FP9N8n_rVelyncevP7DCM")
+genai.configure(api_key="Your API-KEY")
 
 def speak(text):
     """Convert text to speech"""
